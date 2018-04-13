@@ -1,8 +1,20 @@
+*{
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid red;
+}
+body{
+font-family: 'Allerta', sans-serif;
+}
+
 .titulo{
+  font-family: 'Montserrat', sans-serif;
   font-size:70px;
 }
 .title-a{
+
   font-size: 24px;
+
 }
 .title-b{
   font-size: 50px;
@@ -12,6 +24,7 @@
 }
 
 .guitarras h2{
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
 }
 
@@ -22,5 +35,12 @@
 
 .menu {
   font-size: 24px;
+  display: inline-block;
+}
+.menu li{
+  display: inline-block;
+}
 
+.logotipo{
+  display: inline-block;
 }
