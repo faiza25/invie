@@ -2,13 +2,48 @@ body{
 font-family: 'Allerta', sans-serif;
 margin: 0px;
 }
+table{
+  width: 100%;
+}
+th{
+  background: #273b47;
+  color: white;
+  text-align: left;
+  padding: 10px 20px;
+}
+td{
+  padding: 20px;
+}
+table,td,th{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+input,textarea{
+  outline:0;
+}
+input:focus,textarea:focus{
+  background:lightgray;
+}
+.background{
+  background-image: url('../images/background.png');
+  background-size: cover;
 
+}
+.contenedor{
+  width: 800px;
+  margin:auto;
+  position: relative;
+}
 .button{
-  border-radius:5px;
+  border-radius:12px;
   border:none;
   background: #fd324e;
   color:white;
-  padding: 7px;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  background: linear-gradient(to left,#fe344e,#ff7250);;
+  text-decoration: none;
 }
 
 .titulo{
@@ -16,6 +51,9 @@ margin: 0px;
   font-size:70px;
   margin-bottom: 0px;
   margin-top:70px;
+}
+.titulo span{
+  text-decoration: underline;
 }
 .title-a{
   margin-top: 0px;
@@ -28,6 +66,7 @@ margin: 0px;
 }
 .guitarras{
   color: #1F313C;
+  margin-bottom: 60px;
 }
 
 .guitarras h2{
@@ -36,9 +75,9 @@ margin: 0px;
 }
 
 .portada{
-  background-image: url('../images/background.png');
   color:white;
   padding: 20px;
+  height: 500px;
 
 }
 
@@ -60,19 +99,18 @@ margin: 0px;
   content: "∘";
   font-size: 50px;
   line-height: 20px;
-  color:blue;
+  color:white;
 }
-
+.menu a{
+  color:white;
+  text-decoration: none;
+}
 .logotipo{
   display: inline-block;
-}
-.contenedor{
-  width: 800px;
-  margin:auto;
-
+  margin-left: 0px;
 }
 .guitarra{
-  margin: 10px;
+  margin: 10px 10px 40px 10px;
   padding: 10px;
   /* overflow: hidden; */
   border: 1px solid #1F313C;
@@ -81,7 +119,9 @@ margin: 0px;
 
 .guitarra ol{
   padding: 0px;
-
+}
+.guitarra.b{
+  height: 190px;
 }
 
 .derecha{
@@ -93,7 +133,6 @@ margin: 0px;
 .izquierda{
   float: left;
   position: relative;
-  top:80px;
 
 }
 .contenedor-guitarra-a{
@@ -101,12 +140,15 @@ margin: 0px;
 }
 .contenedor-guitarra-b{
   margin-left: 370px;
+  position: relative;
+  bottom: 90px;
 }
 .header{
   position: relative;
 }
 .footer{
   background: #273b47;
+  padding: 50px 10px;
 }
 .contacto{
   display: flex;
@@ -134,7 +176,6 @@ margin: 0px;
   display: flex;
   width: 400px;
   color: white;
-  padding: 50px 10px;
 }
 .col1,.col2{
   display: flex;
@@ -146,6 +187,9 @@ margin: 0px;
 .col2{
   align-items: flex-start;
 }
+.col2 .button{
+  margin-top: 15px;
+}
 .intereses label{
   font-size: 12px;
 }
@@ -156,19 +200,6 @@ margin: 0px;
 .sexo{
   margin-top: 10px;
 }
-table{
-  width: 100%;
-}
-th{
-  background: #273b47;
-  color: white;
-  text-align: left;
-  padding: 10px 20px;
-}
-td{
-  padding: 20px;
-}
-table,td,th{
-  border: 1px solid #273b47;
-  border-collapse: collapse;
+.tabla{
+  margin: 50px 0px;
 }
